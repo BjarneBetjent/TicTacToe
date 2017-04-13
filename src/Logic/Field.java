@@ -20,6 +20,6 @@ public class Field
     }
     public void setField(int a)
     {
-        field = a;
+        if(a == 0 || a == 1 || a ==2) field = a;
     }
 }
